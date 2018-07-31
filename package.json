@@ -1,0 +1,32 @@
+{
+  "name": "sassy-tap",
+  "version": "1.0.0",
+  "main": "output-formatter.js",
+  "scripts": {
+    "test": "node ./test/test_pass.js | node output-formatter.js"
+  },
+  "keywords": [
+    "tape",
+    "tap",
+    "error",
+    "yass queen",
+    "testing"
+  ],
+  "author": "kate & martin",
+  "license": "ISC",
+  "devDependencies": {
+    "tape": "^4.9.1"
+  },
+  "dependencies": {
+    "colors": "^1.3.1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fac-14/sassy-tap.git"
+  },
+  "bugs": {
+    "url": "https://github.com/fac-14/sassy-tap/issues"
+  },
+  "homepage": "https://github.com/fac-14/sassy-tap#readme",
+  "description": ""
+}
